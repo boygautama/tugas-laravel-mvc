@@ -6,18 +6,19 @@ use Illuminate\Http\Request;
 
 class AuthController extends Controller
 {
-   public function register(){
-       return view('register');
-   }
+  public function register()
+  {
+    return view('register');
+  }
 
-     public function wellcome(){
-       return view('wellcome');
-   }
+  public function wellcome()
+  {
+    return view('wellcome');
+  }
 
-    public function wellcomepost(Request $reg){
-    //  return "ok";
-    $name = $reg['firstname'].' '.$reg['lastname'];
-    return view('wellcome',["name"=>$name]);
-
-   }
+  public function wellcomepost(Request $reg)
+  {
+    $name = $reg['firstname'] . ' ' . $reg['lastname'];
+    return view('wellcome', ["name" => $name]);
+  }
 }
