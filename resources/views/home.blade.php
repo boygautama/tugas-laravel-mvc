@@ -43,7 +43,7 @@
         }
 
         .content {
-            text-align: center;
+            /* text-align: center; */
         }
 
         .title {
@@ -87,9 +87,23 @@
                 Sanbercode
             </div>
 
-            <div class="links">
-                <a href="/register">Register</a>
-            </div>
+           <h1>SanberBook</h1>
+<h2>Sosial Media Developer Santai Berkualitas</h2>
+<p>Belajar dan Berbagi agar hidup ini semakin santai berkualitas.</p>
+<br>
+<h3>Benefit Join di Sanberbook</h3>
+<ul>
+	<li>Mendapatkan motivasi dari sesama developer</li>
+	<li>Sharing knowledge dari para mastah sanber</li>
+	<li>Dibuat oleh calon web developer terbaik</li>
+	</ul>
+	<br>
+	<h3>Cara bergabung ke Sanberbook</h3>
+<ol>
+  <li>Mengunjungi website ini</li>
+  <li>Mendaftar di <a href="/register">Form Sign Up</a></li>
+  <li>Selesai!</li>
+</ol>
         </div>
     </div>
 </body>
